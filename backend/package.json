@@ -1,0 +1,8 @@
+{
+  "name": "grand-conquest-backend-node",
+  "private": true,
+  "version": "0.1.0",
+  "license": "ISC",
+  "author": "FalconPilot",
+  "main": "index.js"
+}
