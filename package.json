@@ -4,5 +4,15 @@
   "version": "0.1.0",
   "license": "ISC",
   "author": "FalconPilot",
-  "main": "src/backend/app.js"
+  "main": "src/backend/app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FalconPilot/grand-conquest-node"
+  },
+  "scripts": {
+    "start": "node src/backend/app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
