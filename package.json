@@ -4,5 +4,5 @@
   "version": "0.1.0",
   "license": "ISC",
   "author": "FalconPilot",
-  "main": "index.js"
+  "main": "src/backend/app.js"
 }
