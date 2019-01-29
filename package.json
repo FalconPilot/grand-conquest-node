@@ -11,7 +11,7 @@
   },
   "scripts": {
     "init": "mkdir src/backend/app",
-    "dev-server": "dotenv node src/backend/app.js",
+    "dev-server": "dotenv nodemon src/backend/app.js",
     "dev-front": "parcel src/frontend/index.html",
     "dev": "concurrently \"npm run dev-server\" \"npm run dev-front\"",
     "start": "npm run dev"
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "dotenv-cli": "^1.4.0"
+    "dotenv-cli": "^1.4.0",
+    "nodemon": "^1.18.9"
   }
 }
