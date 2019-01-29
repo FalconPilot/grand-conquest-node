@@ -10,14 +10,22 @@
     "url": "https://github.com/FalconPilot/grand-conquest-node"
   },
   "scripts": {
-    "start": "node src/backend/app.js"
+    "init": "mkdir src/backend/app",
+    "dev-server": "dotenv node src/backend/app.js",
+    "dev-front": "parcel src/frontend/index.html",
+    "dev": "concurrently \"npm run dev-server\" \"npm run dev-front\"",
+    "start": "npm run dev"
   },
   "dependencies": {
     "colors": "^1.3.3",
     "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "parcel": "^1.11.0",
+    "parcel-bundler": "^1.11.0",
     "sequelize": "^4.42.0"
   },
   "devDependencies": {
-    "dotenv": "^6.2.0"
+    "concurrently": "^4.1.0",
+    "dotenv-cli": "^1.4.0"
   }
 }
