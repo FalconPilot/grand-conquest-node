@@ -5,7 +5,7 @@ const { arrow } = require('./utils/format.js')
 // Start application router
 require('./router')(app)
 
-const port = process.env.CONFIG_PORT || 8080
+const port = process.env.PORT || 8080
 
 // Start server
 app.listen(port, () => {
