@@ -1,7 +1,7 @@
 {
   "name": "grand-conquest-backend-node",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "ISC",
   "author": "FalconPilot",
   "main": "src/backend/app.js",
